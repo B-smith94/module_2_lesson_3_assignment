@@ -1,7 +1,6 @@
 submitted = ["Alice", "Bob", "Charlie", "David"]
 attended = ["Charlie", "Eve", "Alice", "Frank"]
 
-attended.remove("Alice")
 
 if "Alice" in submitted and "Alice" in attended:
     print("Alice submitted her assignment and attended class.")
