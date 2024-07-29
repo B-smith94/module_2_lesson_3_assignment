@@ -2,8 +2,7 @@ grades = [85, 90, 78, 88, 76, 95, 89, 80, 72, 93]
 
 grades.sort()
 grades.reverse()
-print(grades)
+print(f"All the class grades are: {grades}")
 
-grade_average = grades[0:] // len(grades)
-
-print(grade_average)
+average_grade = sum(grades) // len(grades)
+print(f"The average grade in the class is: {average_grade}")
